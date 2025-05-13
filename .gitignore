@@ -56,3 +56,9 @@ test/tracetesting/tracetesting-vars.yaml
 !src/currency/build
 .terraform/
 .terraform.lock.hcl
+# Terraform files
+**/.terraform/*
+**/.terraform.lock.hcl
+**/*.tfstate
+**/*.tfstate.backup
+**/.terraform.tfstate.lock.info
